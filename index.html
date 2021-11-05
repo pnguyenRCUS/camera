@@ -3,9 +3,9 @@
 <html>
  
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mobile Device Html5 Take photo(s)</title>
-	<link rel="stylesheet" href="styles.css"> 
+ 
+    <title>Take or select photo(s) and upload</title>
+ 
     <script type="text/javascript">
  
       function fileSelected() {
@@ -113,21 +113,20 @@
 </head>
  
 <body>
-
+ 
   <form id="form1" enctype="multipart/form-data" method="post" action="Upload.aspx">
  
-    <div class=label>
+    <div>
  
-      <label for="fileToUpload">Take photo from mobile device. <br /> Desktop will select file.</label><br />
-	</div>
-	<div class=input>
+      <label for="fileToUpload">Take or select photo(s)</label><br />
+ 
       <input type="file" name="fileToUpload" id="fileToUpload" onchange="fileSelected();" accept="image/*" capture="camera" />
  
     </div>
  
     <div id="details"></div>
  
-    <div class=button>
+    <div>
  
       <input type="button" onclick="uploadFile()" value="Upload" />
  
@@ -136,7 +135,7 @@
     <div id="progress"></div>
  
   </form>
-
+ 
 </body>
  
 </html>
