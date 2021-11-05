@@ -1,0 +1,48 @@
+html, body{
+    width: 600px;
+    background-color: white;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+.label{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 0px;
+    border: none;
+    padding: 15px 20px;
+    text-align: left;
+    top: 200px;
+    left: calc(50% - 100px);
+}
+
+.input{
+    width: 200px;
+    background-color: yellow;
+    color: green;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: calc(20% - 100px);
+}
+
+.button{
+    width: 200px;
+    background-color: yellow;
+    color: green;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    left: calc(20% - 100px);
+}
+
